@@ -3,7 +3,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import { Nav, Navbar } from "react-bootstrap";
 import logo from "../../Costues-Logo.png";
 import "../../style.css";
-import "../login/Login.js"
+
 function NavigationBar() {
   return (
     <Navbar
@@ -33,7 +33,8 @@ function NavigationBar() {
           </LinkContainer>
           <LinkContainer exact to="/login">
             <Nav.Link>
-              <button id="login-btn" >LOGIN/SIGNUP</button>
+              <button id="login-btn">LOGIN/SIGNUP</button>
+              
             </Nav.Link>
           </LinkContainer>
         </Nav>

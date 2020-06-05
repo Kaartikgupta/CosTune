@@ -1,6 +1,5 @@
 import React from "react";
-import Popup from "reactjs-popup";
-import "./login.css";
+import { Link } from 'react-router-dom';
 class ControlledPopup extends React.Component {
             constructor(props) {
                 super(props);
@@ -44,14 +43,15 @@ class ControlledPopup extends React.Component {
             render() {
             return (
                 <div>
-                <button className="button" onClick={this.openModal}>
+                {/* <button className="button" onClick={this.openModal}>
                     Login
                 </button>
                 <Popup
                     open={this.state.open}
                     closeOnDocumentClick
                     onClose={this.closeModal}
-                >
+                > */}
+                   
                     <div className="box">
                         <div className="leftbox">
                         <div className="black" />
@@ -67,7 +67,8 @@ class ControlledPopup extends React.Component {
                                     </div>
                                     <input className="btn" type="submit" value="Submit" />
                                     <div className="othertext">
-                                        Haven't Registered Yet? Register
+                                    <Link to="/signup/">Haven't Registered Yet? Register</Link>
+                                        
                                     </div>
                                 </div>
                             </form>
@@ -75,12 +76,9 @@ class ControlledPopup extends React.Component {
                         </div>
                     </div>
                     
-                </Popup>
+                
                 </div>
             );
     }
   }
   export default ControlledPopup;
-
-
-// export default Login;
