@@ -1,6 +1,15 @@
 import React from "react";
 import Background from "../../landing.jpg";
+import { Nav, Navbar } from "react-bootstrap";
 import "../../style.css";
+import player from "../player/Player";
+import { LinkContainer } from "react-router-bootstrap";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 var sectionStyle = {
   width: "auto",
   height: "600px",
@@ -21,7 +30,10 @@ function Home() {
         We've got you covered...
       </h3>
       <br />
-      <button id="play-btn">Play Now</button>
+
+      <a href="player">
+        <button id="play-btn">Play Now</button>
+      </a>
     </section>
   );
 }

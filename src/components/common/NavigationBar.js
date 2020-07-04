@@ -27,7 +27,9 @@ function NavigationBar() {
           <LinkContainer exact to="/about">
             <Nav.Link id="navbar">About</Nav.Link>
           </LinkContainer>
-
+          <LinkContainer exact to="/player">
+            <Nav.Link id="navbar">Music</Nav.Link>
+          </LinkContainer>
           <LinkContainer exact to="/contact">
             <Nav.Link id="navbar">Contact</Nav.Link>
           </LinkContainer>
