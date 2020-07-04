@@ -11,11 +11,12 @@ import {
   Redirect,
 } from "react-router-dom";
 var sectionStyle = {
-  width: "100%",
+  width: "auto",
   height: "600px",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
   backgroundImage: `url(${Background})`,
+  
 };
 var h3style = {
   color: "white",
@@ -23,7 +24,7 @@ var h3style = {
 };
 function Home() {
   return (
-    <section style={sectionStyle}>
+    <section style={sectionStyle} className="bgphoto">
       <h3 style={h3style}>
         Love Music ?<br />
         We've got you covered...
