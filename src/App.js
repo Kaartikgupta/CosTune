@@ -12,7 +12,7 @@ import Layout from "./components/common/Layout";
 import NavigationBar from "./components/common/NavigationBar";
 import Home from "./components/landing/Home";
 import About from "./components/about/About";
-
+import Music from "./components/player/Player";
 import Login from "./components/login/Login";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/common/Footer";
@@ -26,7 +26,7 @@ function App() {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
-
+            <Route path="/player" component={Music} />
             <Route path="/contact" component={Contact} />
             <Route path="/login" component={Login} />
             <Redirect from="*" to="/"></Redirect>
