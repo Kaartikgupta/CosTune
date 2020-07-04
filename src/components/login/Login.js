@@ -43,14 +43,7 @@ class ControlledPopup extends React.Component {
             render() {
             return (
                 <div>
-                {/* <button className="button" onClick={this.openModal}>
-                    Login
-                </button>
-                <Popup
-                    open={this.state.open}
-                    closeOnDocumentClick
-                    onClose={this.closeModal}
-                > */}
+                
                    
                     <div className="box">
                         <div className="leftbox">

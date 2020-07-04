@@ -66,3 +66,10 @@ code {
   margin-right: 7px;
   margin-left: 7px;
 }
+
+    .bgphoto {
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+    }
+  
