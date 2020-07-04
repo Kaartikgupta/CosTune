@@ -74,4 +74,5 @@ class ControlledPopup extends React.Component {
             );
     }
   }
+
   export default ControlledPopup;
