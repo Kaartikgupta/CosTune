@@ -3,20 +3,14 @@ import Background from "../../landing.jpg";
 import { Nav, Navbar } from "react-bootstrap";
 import "../../style.css";
 import player from "../player/Player";
-import { LinkContainer } from "react-router-bootstrap";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from "react-router-dom";
+
+import { BrowserRouter as Router } from "react-router-dom";
 var sectionStyle = {
   width: "auto",
   height: "600px",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
   backgroundImage: `url(${Background})`,
-  
 };
 var h3style = {
   color: "white",

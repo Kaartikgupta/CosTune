@@ -33,12 +33,6 @@ function NavigationBar() {
           <LinkContainer exact to="/contact">
             <Nav.Link id="navbar">Contact</Nav.Link>
           </LinkContainer>
-          <LinkContainer exact to="/login">
-            <Nav.Link>
-              <button id="login-btn">LOGIN/SIGNUP</button>
-              
-            </Nav.Link>
-          </LinkContainer>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
