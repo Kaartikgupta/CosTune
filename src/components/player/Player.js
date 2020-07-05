@@ -8,7 +8,7 @@ import SearchBar from "./search_bar";
 import VideoList from "./video_list";
 import VideoDetail from "./video_detail";
 import "./player.css";
-const API_KEY = "AIzaSyBV_jE8hqfiTyS24C4UJ98N1qw0aUqijvg";
+const API_KEY = "AIzaSyBW0oSav4dxS16hVjK_VWsL1jJRDjzmpoI";
 
 //  Create a new component.
 class Player extends Component {
